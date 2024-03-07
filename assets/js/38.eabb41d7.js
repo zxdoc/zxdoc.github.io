@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[38],{328:function(t,n,s){"use strict";s.r(n);var o=s(14),e=Object(o.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("blockquote",[t("p",[this._v("项目内部具体功能由另外两个同事实现,自己只是构建了基本框架,内容和物业端的架构类似")])])])}),[],!1,null,null,null);n.default=e.exports}}]);
