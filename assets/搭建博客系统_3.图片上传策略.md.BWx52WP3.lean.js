@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.4aTu-Nia.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"搭建博客系统/3.图片上传策略.md","filePath":"搭建博客系统/3.图片上传策略.md","lastUpdated":1715225028000}'),_={name:"搭建博客系统/3.图片上传策略.md"};function r(o,s,c,n,d,p){return a(),t("div")}const f=e(_,[["render",r]]);export{m as __pageData,f as default};
