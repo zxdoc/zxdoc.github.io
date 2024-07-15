@@ -1,6 +1,6 @@
 在开发前端项目 有时候零散的配置文件非常多 眼花缭乱不是很清晰
 
-![image-20240601093447582](https://gitee.com/zhaox010/pic-go-save/raw/master/image/202406010934687.png)
+![image-20240715092209706](https://gitee.com/zhaox010/pic-go-save/raw/master/image/202407150922774.png)
 
 基本上就是一坨文件堆在一起！
 
@@ -8,12 +8,14 @@
 
 说白了就是把文件进行分组
 
-#### ![image-20240601093755940](https://gitee.com/zhaox010/pic-go-save/raw/master/image/202406010937984.png)
+> 配置 settings.json 配置文件
 
-设置完以后 `setting.json`也会同步出现配置项
-
-![image-20240601093842639](https://gitee.com/zhaox010/pic-go-save/raw/master/image/202406010938666.png)
+```json
+"explorer.fileNesting.patterns": {
+    "jsconfig.json": "jsconfig.*.json,README.md,*.json,*.js,.editorconfig,.gitignore,.npmrc,LICENSE,.env*,*.html,*.sh,Makefile"
+  },
+```
 
 最终的效果
 
-![image-20240601093914259](https://gitee.com/zhaox010/pic-go-save/raw/master/image/202406010939288.png)
+![image-20240715092450124](https://gitee.com/zhaox010/pic-go-save/raw/master/image/202407150924159.png)
