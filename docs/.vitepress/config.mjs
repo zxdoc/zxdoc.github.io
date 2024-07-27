@@ -77,6 +77,10 @@ export default defineConfig({
         ],
       },
       {
+        text: "java",
+        link: "/java/01 javaSE基础/01-Java入门&IDEA&基础语法/Java入门&IDEA&基础语法",
+      },
+      {
         text: "杂七杂八",
         items: [
           {
@@ -252,7 +256,7 @@ export default defineConfig({
           text: "基础知识",
           items: [
             {
-              text: "变量 常量 数据类型 运算符",
+              text: "变量&常量&数据类型&运算符",
               link: "/前端/JavaScript/01 基础知识/变量_常量_数据类型_运算符/变量 常量 数据类型 运算符",
             },
             {
@@ -270,6 +274,37 @@ export default defineConfig({
             {
               text: "对象 数据如何在内存存储",
               link: "/前端/JavaScript/01 基础知识/对象_数据存储/对象 数据存储",
+            },
+          ],
+        },
+      ],
+      "/java": [
+        {
+          text: "javaSE基础",
+          items: [
+            {
+              text: "java入门&IDEA&基础语法",
+              link: "/java/01 javaSE基础/01-Java入门&IDEA&基础语法/Java入门&IDEA&基础语法",
+            },
+            {
+              text: "运算符&选择语句",
+              link: "/java/01 javaSE基础/02-运算符&选择语句/运算符&选择语句",
+            },
+            {
+              text: "循环语句",
+              link: "/java/01 javaSE基础/03-循环语句/循环语句",
+            },
+            {
+              text: "方法",
+              link: "/java/01 javaSE基础/04-方法/方法",
+            },
+            {
+              text: "面向对象基础",
+              link: "/java/01 javaSE基础/05-面向对象基础/面向对象基础",
+            },
+            {
+              text: "常用api",
+              link: "/java/01 javaSE基础/06-常用API/常用API",
             },
           ],
         },
