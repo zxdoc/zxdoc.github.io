@@ -70,6 +70,10 @@ export default defineConfig({
             text: "Flex布局",
             link: "/前端/flex布局/容器属性/1.弹性盒",
           },
+          {
+            text: "JavaScript",
+            link: "/前端/JavaScript/01 基础知识/变量_常量_数据类型_运算符/变量 常量 数据类型 运算符",
+          },
         ],
       },
       {
@@ -239,6 +243,33 @@ export default defineConfig({
             {
               text: "独立对齐方式",
               link: "/前端/flex布局/项目属性/5.独立对齐方式",
+            },
+          ],
+        },
+      ],
+      "/前端/JavaScript": [
+        {
+          text: "基础知识",
+          items: [
+            {
+              text: "变量 常量 数据类型 运算符",
+              link: "/前端/JavaScript/01 基础知识/变量_常量_数据类型_运算符/变量 常量 数据类型 运算符",
+            },
+            {
+              text: "类型转换 流程控制 循环语句",
+              link: "/前端/JavaScript/01 基础知识/类型转换_流程控制/类型转换 流程控制",
+            },
+            {
+              text: "循环嵌套 数组",
+              link: "/前端/JavaScript/01 基础知识/循环嵌套_数组/循环嵌套 数组",
+            },
+            {
+              text: "函数",
+              link: "/前端/JavaScript/01 基础知识/函数/函数",
+            },
+            {
+              text: "对象 数据如何在内存存储",
+              link: "/前端/JavaScript/01 基础知识/对象_数据存储/对象 数据存储",
             },
           ],
         },
