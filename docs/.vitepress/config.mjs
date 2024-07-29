@@ -277,6 +277,35 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: "webApi",
+          items: [
+            {
+              text: "dom操作",
+              link: "/前端/JavaScript/02 webApi/01 dom操作/dom操作",
+            },
+            {
+              text: "事件核心",
+              link: "/前端/JavaScript/02 webApi/02 事件核心/事件核心",
+            },
+            {
+              text: "事件进阶",
+              link: "/前端/JavaScript/02 webApi/03 事件进阶/事件进阶",
+            },
+            {
+              text: "日期对象、DOM节点、移动端滑动",
+              link: "/前端/JavaScript/02 webApi/04 日期对象、DOM节点、移动端滑动/日期对象、DOM节点、移动端滑动",
+            },
+            {
+              text: "BOM操作 (本地存储)",
+              link: "/前端/JavaScript/02 webApi/05 BOM操作 (本地存储)/BOM操作 (本地存储)",
+            },
+            {
+              text: "正则表达式",
+              link: "/前端/JavaScript/02 webApi/06 正则表达式/正则表达式",
+            },
+          ],
+        },
       ],
       "/java": [
         {
