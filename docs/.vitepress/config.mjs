@@ -335,6 +335,10 @@ export default defineConfig({
               text: "常用api",
               link: "/java/01 javaSE基础/06-常用API/常用API",
             },
+            {
+              text: "常用api2",
+              link: "/java/01 javaSE基础/07 常用API2/常用API(2)",
+            },
           ],
         },
       ],
