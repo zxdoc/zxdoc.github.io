@@ -349,8 +349,12 @@ export default defineConfig({
           text: "javaSE进阶",
           items: [
             {
-              text: "匿名对象 , 继承 , 抽象类",
+              text: "匿名对象 继承 抽象类",
               link: "/java/02 javaSE进阶/01 匿名对象 继承 抽象类/01 匿名对象 继承 抽象类",
+            },
+            {
+              text: "关键字 接口 代码块 枚举",
+              link: "/java/02 javaSE进阶/02 关键字 接口 代码块 枚举/02 关键字 接口 代码块 枚举",
             },
           ],
         },
