@@ -67,13 +67,13 @@ public class StringDemo01 {
         System.out.println("------------");
 
         //String(String original)：初始化新创建的String对象，使其表示与参数相同的字符序列
-        String s2 = new String("itheima");
+        String s2 = new String("zhaoxin");
         System.out.println(s2);
         System.out.println(s2.length());
         System.out.println("------------");
 
         //Java程序中的所有字符串文字（例如"abc" ）都实现为此类的实例
-        String s3 = "itheima";
+        String s3 = "zhaoxin";
         System.out.println(s3);
         System.out.println(s3.length());
     }
@@ -102,9 +102,9 @@ public class StringDemo01 {
  */
 public class StringDemo02 {
     public static void main(String[] args) {
-        String s1 = "itheima";
-        String s2 = "itheima";
-        String s3 = "Itheima";
+        String s1 = "zhaoxin";
+        String s2 = "zhaoxin";
+        String s3 = "zhaoxin";
 
         //boolean equals(Object anObject)：将此字符串与指定的对象进行比较
         System.out.println(s1.equals(s2));
@@ -115,7 +115,7 @@ public class StringDemo02 {
         System.out.println(s1.equalsIgnoreCase(s3));
         System.out.println("-------------------");
 
-        String s4 = " itheima ";
+        String s4 = " zhaoxin ";
         //String trim()：返回一个字符串，其值为此字符串，删除了所有前导和尾随空格
         System.out.println(s4);
         System.out.println(s4.trim());
@@ -138,7 +138,7 @@ public class StringDemo02 {
 
 ① 已知的用户名和密码
 
-  	用户名：itheima
+  	用户名：zhaoxin
 
   	密码：123456
 
@@ -158,7 +158,7 @@ import java.awt.event.ActionListener;
 
 /*
     1:已知的用户名和密码
-        用户名：itheima
+        用户名：zhaoxin
        密码：123456
     2:用户名和密码的长度都是6-12位
     3:点击登录按钮
@@ -203,7 +203,7 @@ public class UserLogin {
         jf.add(loginButton);
 
         //已知的用户名和密码
-        String name = "itheima";
+        String name = "zhaoxin";
         String pwd = "123456";
 
         loginButton.addActionListener(new ActionListener() {

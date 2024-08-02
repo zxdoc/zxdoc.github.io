@@ -177,13 +177,13 @@ Random：是用来产生随机数的
 
 - 格式：package 包名;  
 - 注意：包名一般是公司域名反写，并且多级包用.分开
-- 举例：www.itheima.com
-- 范例：package com.itheima;
+- 举例：www.zhaoxin.com
+- 范例：package com.zhaoxin;
 
 知道了如何定义包之后，下面我们来定义两个包，并且在不同包下定义同名的类。
 
 ```java
-package com.itheima_01;
+package com.zhaoxin_01;
 
 public class Student {
     public void study() {
@@ -194,7 +194,7 @@ public class Student {
 
 ```java
 
-package com.itheima_01;
+package com.zhaoxin_01;
 
 public class StudentTest {
     public static void main(String[] args) {
@@ -205,14 +205,14 @@ public class StudentTest {
 ```
 
 ```java
-package com.itheima_02;
+package com.zhaoxin_02;
 
 public class StudentTest {
     public static void main(String[] args) {
-        com.itheima_01.Student s = new com.itheima_01.Student();
+        com.zhaoxin_01.Student s = new com.zhaoxin_01.Student();
         s.study();
 
-        com.itheima_01.Student s2 = new com.itheima_01.Student();
+        com.zhaoxin_01.Student s2 = new com.zhaoxin_01.Student();
         s2.study();
     }
 }
@@ -227,14 +227,14 @@ public class StudentTest {
 **导包的格式：**
 
 - 格式：import 包名;
-- 范例：import com.itheima.Student;
+- 范例：import com.zhaoxin.Student;
 
 知道了如何导包后，我们再来修改一下不同包下类的使用代码：
 
 ```java
-package com.itheima_02;
+package com.zhaoxin_02;
 
-import com.itheima_01.Student;
+import com.zhaoxin_01.Student;
 //Alt+Enter 快捷键导包
 
 public class StudentTest {
@@ -246,10 +246,10 @@ public class StudentTest {
         s2.study();
 
 
-//        com.itheima_01.Student s = new com.itheima_01.Student();
+//        com.zhaoxin_01.Student s = new com.zhaoxin_01.Student();
 //        s.study();
 //
-//        com.itheima_01.Student s2 = new com.itheima_01.Student();
+//        com.zhaoxin_01.Student s2 = new com.zhaoxin_01.Student();
 //        s2.study();
     }
 }
@@ -756,9 +756,9 @@ public class JButtonDemo {
   - ImageIcon(String filename)：从指定的文件创建ImageIcon
   - 文件路径：绝对路径和相对路径
   - 绝对路径：完整的路径名，不需要任何其他信息就可以定位它所表示的文件
-    - 例如：D:\IdeaProjects\javase_code\itheima-api-gui\images\mn.png
+    - 例如：D:\IdeaProjects\javase_code\zhaoxin-api-gui\images\mn.png
   - 相对路径：必须使用取自其他路径名的信息进行解释
-    - 例如：itheima-api-gui\images\mn.png
+    - 例如：zhaoxin-api-gui\images\mn.png
 
 **成员方法：**
 
@@ -795,11 +795,11 @@ public class JLabelDemo {
 
         //JLabel(Icon image)：使用指定的图像创建 JLabel实例
         //ImageIcon(String filename)：从指定的文件创建ImageIcon
-        //D:\IdeaProjects\javase_code\itheima-api-gui\images\mn.png
-//        ImageIcon imageIcon = new ImageIcon("D:\\IdeaProjects\\javase_code\\itheima-api-gui\\images\\mn.png");
+        //D:\IdeaProjects\javase_code\zhaoxin-api-gui\images\mn.png
+//        ImageIcon imageIcon = new ImageIcon("D:\\IdeaProjects\\javase_code\\zhaoxin-api-gui\\images\\mn.png");
 //        JLabel jLabel2 = new JLabel(imageIcon);
-//        JLabel jLabel2 = new JLabel(new ImageIcon("D:\\IdeaProjects\\javase_code\\itheima-api-gui\\images\\mn.png"));
-        JLabel jLabel2 = new JLabel(new ImageIcon("itheima-api-gui\\images\\mn.png"));
+//        JLabel jLabel2 = new JLabel(new ImageIcon("D:\\IdeaProjects\\javase_code\\zhaoxin-api-gui\\images\\mn.png"));
+        JLabel jLabel2 = new JLabel(new ImageIcon("zhaoxin-api-gui\\images\\mn.png"));
         jLabel2.setBounds(50,50,100,143);
 
         jf.add(jLabel);

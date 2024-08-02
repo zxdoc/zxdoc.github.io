@@ -339,6 +339,19 @@ export default defineConfig({
               text: "常用api2",
               link: "/java/01 javaSE基础/07 常用API2/常用API(2)",
             },
+            {
+              text: "数组",
+              link: "/java/01 javaSE基础/08 数组/数组",
+            },
+          ],
+        },
+        {
+          text: "javaSE进阶",
+          items: [
+            {
+              text: "匿名对象 , 继承 , 抽象类",
+              link: "/java/02 javaSE进阶/01 匿名对象 继承 抽象类/01 匿名对象 继承 抽象类",
+            },
           ],
         },
       ],

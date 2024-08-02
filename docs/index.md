@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 最新发现
-      link: /搭建博客系统/4.github自动部署.md
+      link: /java/02 javaSE进阶/01 匿名对象 继承 抽象类/01 匿名对象 继承 抽象类.md
 
 features:
   - icon: "🦀"

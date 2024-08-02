@@ -363,9 +363,9 @@ JDK安装完毕后，下面我们来开发自己的第一个Java程序。
 
 ② 新建一个新模块(idea_test)
 
-③ 在idea_test模块的src下新建一个包(com.itheima)
+③ 在idea_test模块的src下新建一个包(com.zhaoxin)
 
-④ 在com.itheima包下新建一个类(HelloWorld)
+④ 在com.zhaoxin包下新建一个类(HelloWorld)
 
 ⑤ 在HelloWorld类中编写代码(main回车，sout回车)
 
@@ -421,7 +421,7 @@ JDK安装完毕后，下面我们来开发自己的第一个Java程序。
 
 
 
-③ 在idea_test模块的src下新建一个包(com.itheima)
+③ 在idea_test模块的src下新建一个包(com.zhaoxin)
 
 第一步：展开模块，按照1,2,3的步骤选择，来新建一个包
 
@@ -437,9 +437,9 @@ JDK安装完毕后，下面我们来开发自己的第一个Java程序。
 
 
 
-④ 在com.itheima包下新建一个类(HelloWorld)
+④ 在com.zhaoxin包下新建一个类(HelloWorld)
 
-第一步：选中com.itheima这个包，按照1,2,3的步骤选择，来新建一个类
+第一步：选中com.zhaoxin这个包，按照1,2,3的步骤选择，来新建一个类
 
 ![1639745503256](imgs/1639745503256.png)
 
