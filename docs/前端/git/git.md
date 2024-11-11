@@ -1,45 +1,10 @@
 
 
-
 # Git 教程
-
-## 目录
-
-1. [什么是 Git](#什么是-git)
-2. [安装 Git](#安装-git)
-3. [创建和管理 Git 仓库](#创建和管理-git仓库)
-4. [基本操作](#基本操作)
-    - [查看状态](#查看状态)
-    - [添加文件到暂存区](#添加文件到暂存区)
-    - [提交更改](#提交更改)
-    - [查看提交历史](#查看提交历史)
-    - [贮藏](#贮藏)
-5. [分支管理](#分支管理)
-    - [查看分支](#查看分支)
-    - [创建和切换分支](#创建和切换分支)
-    - [合并分支](#合并分支)
-    - [删除分支](#删除分支)
-6. [远程仓库操作](#远程仓库操作)
-    - [克隆仓库](#克隆仓库)
-    - [添加远程仓库](#添加远程仓库)
-    - [推送和拉取代码](#推送和拉取代码)
-7. [版本回退与恢复](#版本回退与恢复)
-    - [git reset](#git-reset)
-    - [git revert](#git-revert)
-    - [git checkout](#git-checkout)
-8. [解决合并冲突](#解决合并冲突)
-9. [Git 配置与优化](#git-配置与优化)
-10. [Git 高级功能](#git-高级功能)
-    - [子模块管理](#子模块管理)
-    - [标签管理](#标签管理)
-
----
 
 ## 什么是 Git
 
 Git 是一个开源的分布式版本控制系统，能够有效管理代码的变更。Git 通过创建本地仓库来跟踪项目的历史记录，并能支持多人协作。
-
----
 
 ## 安装 Git
 
@@ -72,8 +37,6 @@ sudo apt install git
 sudo yum install git
 ```
 
----
-
 ## 创建和管理 Git 仓库
 
 ### 创建新的 Git 仓库
@@ -99,8 +62,6 @@ git clone <repository-url>
 ```bash
 git clone https://github.com/username/repository.git
 ```
-
----
 
 ## 基本操作
 
@@ -191,8 +152,6 @@ git stash show stash@{0}
 ```bash
 git stash show -p stash@{0}
 ```
----
-
 ### rebase多次提交合并
 
 在 Git 中，合并多个提交为一个提交是一项常见的操作，特别是在整理和优化提交历史时。本文将介绍如何使用 Git 的不同命令（如 `rebase` 和 `merge --squash`）来合并多个提交。
@@ -314,8 +273,6 @@ git branch -D <branch-name>
 git push origin --delete <branch-name>
 ```
 
----
-
 ## 远程仓库操作
 
 ### 克隆仓库
@@ -350,8 +307,6 @@ git push origin <branch-name>
 git pull origin <branch-name>
 ```
 
----
-
 ## 版本回退与恢复
 
 ### `git reset`
@@ -385,8 +340,6 @@ git checkout <commit-hash>
 git checkout <branch-name>
 ```
 
----
-
 ## 解决合并冲突
 
 合并分支时，如果存在冲突，Git 会标记冲突的文件。你需要手动解决冲突，冲突标记通常如下：
@@ -405,8 +358,6 @@ git checkout <branch-name>
 git add <file-name>
 git commit
 ```
-
----
 
 ## Git 配置与优化
 
@@ -428,8 +379,6 @@ git config --global core.editor "nano"
 ```
 
 你可以将 `"nano"` 替换为你喜欢的编辑器（如 `"vim"` 或 `"code"`）。
-
----
 
 ## Git 高级功能
 
@@ -472,7 +421,7 @@ git push origin <tag-name>
 
 禁用和启用 Git 的代理非常简单，你可以根据需求随时操作。以下是详细的步骤：
 
-#### 1. **禁用代理**
+####  **禁用代理**
 要禁用 Git 的代理，你可以通过以下命令移除当前的代理设置：
 
 - **禁用全局代理：**
@@ -503,7 +452,7 @@ git push origin <tag-name>
 
   如果没有返回任何值，表示代理已经被禁用。
 
-#### 2. **启用代理**
+####  **启用代理**
 如果你想恢复代理设置，可以使用以下命令重新启用代理：
 
 - **启用全局代理：**

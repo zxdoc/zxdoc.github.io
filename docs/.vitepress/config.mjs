@@ -74,6 +74,10 @@ export default defineConfig({
             text: "git",
             link: "/前端/git/git.md",
           },
+          {
+            text: "typescript",
+            link: "/前端/typescript/typescript.md",
+          },
           // {
           //   text: "JavaScript",
           //   link: "/前端/JavaScript/01 基础知识/变量_常量_数据类型_运算符/变量 常量 数据类型 运算符",
@@ -380,6 +384,21 @@ export default defineConfig({
             {
               text: "关键字 接口 代码块 枚举",
               link: "/java/02 javaSE进阶/02 关键字 接口 代码块 枚举/02 关键字 接口 代码块 枚举",
+            },
+          ],
+        },
+      ],
+      "/前端/typescript": [
+        {
+          text: "开始",
+          items: [
+            {
+              text: "内置类型",
+              link: "/前端/typescript/typescript",
+            },
+            {
+              text: "自定义类型",
+              link: "/前端/typescript/自定义",
             },
           ],
         },
