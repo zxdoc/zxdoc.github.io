@@ -1,0 +1,27 @@
+{
+  //打包文件
+  "explorer.fileNesting.patterns": {
+    "jsconfig.json":".editorconfig,.eslintrc.js,.gitignore,.npmrc,.prettierrc.*,LICENSE,Makefile,babel.config.js,postcss.config.js,run-script.js,tailwind.config.js,*.md,*.sh",
+    "vite.config.js":".env.*,*.html"
+  },
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.enabled": true,
+  // 自动修复
+  "editor.codeActionsOnSave": {
+    "source.fixAll":"always"
+  },
+  "window.zoomLevel": -0.15,
+  "css.customData": [".vscode/tailwindcss.json"],
+  "files.exclude": {
+    "jsconfig.json":true,
+    ".idea":true,
+    ".vscode":true,
+    ".github":true,
+    "node_modules":true,
+    "dist":true,
+    "package*":true,
+    "public":true,
+    ".gitignore":true
+  },
+ 
+}
