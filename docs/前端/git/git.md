@@ -321,6 +321,10 @@ git pull origin <branch-name>
 git reset --soft <commit-hash>
 git reset --mixed <commit-hash>
 git reset --hard <commit-hash>
+git reset HEAD^
+git reset HEAD~2
+git reset --mixed HEAD^
+git reset --mixed HEAD~2
 ```
 
 ### `git revert`
