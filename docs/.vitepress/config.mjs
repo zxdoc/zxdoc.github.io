@@ -415,6 +415,14 @@ export default defineConfig({
               text: "手动触发事件",
               link: "/前端/开发经验/手动触发 JavaScript 事件",
             },
+            {
+              text: "json-server",
+              link: "/前端/开发经验/json-server",
+            },
+            {
+              text: "Tailwind CSS",
+              link: "/前端/开发经验/tailwindcss",
+            },
           ],
         },
       ],
