@@ -78,6 +78,10 @@ export default defineConfig({
             text: "typescript",
             link: "/前端/typescript/typescript.md",
           },
+          {
+            text: "开发经验",
+            link: "/前端/开发经验/手动触发 JavaScript 事件",
+          },
           // {
           //   text: "JavaScript",
           //   link: "/前端/JavaScript/01 基础知识/变量_常量_数据类型_运算符/变量 常量 数据类型 运算符",
@@ -399,6 +403,17 @@ export default defineConfig({
             {
               text: "自定义类型",
               link: "/前端/typescript/自定义",
+            },
+          ],
+        },
+      ],
+      "/前端/开发经验": [
+        {
+          text: "开始",
+          items: [
+            {
+              text: "手动触发事件",
+              link: "/前端/开发经验/手动触发 JavaScript 事件",
             },
           ],
         },
