@@ -210,7 +210,7 @@ squash a1b2c3d Commit 4
 如果你已经将这些提交推送到远程仓库，并且需要更新远程分支，你可以使用 `git push --force` 来强制推送更改：
 
 ```
-bashCopy Codegit push --force
+git push --force
 ```
 
 **注意：** 强制推送会覆盖远程分支的历史，因此在多人协作时要小心使用。
