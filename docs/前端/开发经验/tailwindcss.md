@@ -1,10 +1,12 @@
 
 
-# Tailwind CSS `@apply` 
+# Tailwind CSS 
+
+## apply
 
 Tailwind CSS 提供了 `@apply` 指令，允许开发者将多个 Tailwind 工具类应用到一个自定义的 CSS 类中。通过使用 `@apply`，你可以轻松地复用样式、减少重复代码并让 CSS 文件更加简洁。
 
-## 1. 什么是 `@apply`？
+### 1. 什么是 `@apply`？
 
 `@apply` 是 Tailwind CSS 提供的一个 CSS 指令，它允许你将 Tailwind 的工具类（utility classes）直接应用到自定义的 CSS 类中。这种方法使得在项目中定义组件样式时更加简洁和高效。
 
@@ -19,7 +21,7 @@ Tailwind CSS 提供了 `@apply` 指令，允许开发者将多个 Tailwind 工�
 
 在上面的示例中，`@apply` 将 `px-4`, `py-2`, `bg-blue-500`, `text-white`, `rounded-md` 等多个工具类的样式应用到 `.button` 类中。
 
-## 2. `@apply` 的语法
+### 2. `@apply` 的语法
 
 `@apply` 的基本语法如下：
 
@@ -36,9 +38,9 @@ Tailwind CSS 提供了 `@apply` 指令，允许开发者将多个 Tailwind 工�
 }
 ```
 
-## 3. 使用场景
+### 3. 使用场景
 
-### 3.1. 创建可复用的组件样式
+#### 3.1. 创建可复用的组件样式
 
 当你在多个地方需要使用相同的样式时，`@apply` 可以帮助你避免重复，保持样式的一致性。例如，为了创建一个按钮样式：
 
@@ -59,7 +61,7 @@ Tailwind CSS 提供了 `@apply` 指令，允许开发者将多个 Tailwind 工�
 }
 ```
 
-### 3.2. 简化长样式
+#### 3.2. 简化长样式
 
 如果你有复杂的样式，并且需要在多个地方复用这些样式，使用 `@apply` 可以简化这些样式，使得 CSS 更加简洁：
 
@@ -82,7 +84,7 @@ Tailwind CSS 提供了 `@apply` 指令，允许开发者将多个 Tailwind 工�
 
 这样，每次使用 `.card`、`.card-header` 或 `.card-body` 时，都会自动应用对应的样式。
 
-### 3.3. 避免重复的工具类
+#### 3.3. 避免重复的工具类
 
 假设在多个地方都需要使用相同的 Tailwind 工具类，使用 `@apply` 可以让你避免冗余的代码。
 
@@ -93,11 +95,11 @@ Tailwind CSS 提供了 `@apply` 指令，允许开发者将多个 Tailwind 工�
 }
 ```
 
-## 4.其他技巧
+### 4.其他技巧
 
-### 4.1. important
+#### 4.1. important
 
-在`scss`中提升工具类权重
+`scss`**提升优先级**
 
 ```css
 div {
@@ -105,7 +107,7 @@ div {
 }
 ```
 
-### 4.2. 使用插值
+#### 4.2. 使用插值3
 
 ```css
 $width:200px;
@@ -113,4 +115,16 @@ div {
  @apply w-[#{$width}]
 }
 ```
+
+## tailwind css 样式折叠处理
+
+### 配置项
+
+**显示此配置需要安装 tailwindcss 插件**
+
+![image-20241115163131141](./assets\image-20241115163131141.png)
+
+### 配置结果
+
+![image-20241115163425070](assets/image-20241115163425070.png)
 
