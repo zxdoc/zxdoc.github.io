@@ -112,7 +112,7 @@ git log
 ```bash
 git log --oneline
 ```
-### 贮藏
+## 贮藏
 有时你正在进行某项工作，但突然需要切换到另一个任务或者分支，且不想提交当前的更改。此时，你可以使用 `git stash` 将当前的更改保存起来，然后恢复工作。
 ```bash
 git stash
@@ -152,7 +152,7 @@ git stash show stash@{0}
 ```bash
 git stash show -p stash@{0}
 ```
-### rebase多次提交合并
+## rebase多次提交合并
 
 在 Git 中，合并多个提交为一个提交是一项常见的操作，特别是在整理和优化提交历史时。本文将介绍如何使用 Git 的不同命令（如 `rebase` 和 `merge --squash`）来合并多个提交。
 
@@ -204,6 +204,22 @@ squash a1b2c3d Commit 4
 #### 完成 Rebase
 
 完成编辑后，保存并退出，Git 会自动合并这些提交。如果一切顺利，多个提交将被合并为一个提交。
+
+#### 退出当前Rebase 状态
+
+如果在 rebase 过程中遇到冲突，Git 会暂停并提示你解决冲突。在解决完冲突后，你需要运行以下命令继续：
+
+```bash
+git rebase --continue
+```
+
+如果你决定放弃当前的 rebase 操作，可以使用以下命令回到原来的提交状态：
+
+```bash
+git rebase --abort
+```
+
+这将会撤销当前的 rebase 操作，恢复到最初的状态。
 
 #### 推送更改（如果有远程仓库）
 
