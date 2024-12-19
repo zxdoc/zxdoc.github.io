@@ -162,6 +162,10 @@ git stash show -p stash@{0}
 git log --oneline
 ```
 
+```bash
+git log --oneline -n 5
+```
+
 例如，假设你的提交历史如下：
 
 ```bash
@@ -259,6 +263,22 @@ git checkout -b <branch-name>
 
 ```bash
 git switch -c <branch-name>
+```
+
+切换到提交的 commit-id 历史版本
+
+```bash
+git log
+```
+
+```bash
+git checkout commit-id
+```
+
+以历史版本 `commit-id` 创建新分支
+
+```bash	
+git checkout commit-id -b 新分支名称
 ```
 
 ### 合并分支
