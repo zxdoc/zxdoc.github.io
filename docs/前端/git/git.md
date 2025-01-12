@@ -361,6 +361,9 @@ git reset HEAD^
 git reset HEAD~2
 git reset --mixed HEAD^
 git reset --mixed HEAD~2
+#远程master分支覆盖到本地
+git reset --hard origin/master
+
 ```
 
 ### `git revert`
