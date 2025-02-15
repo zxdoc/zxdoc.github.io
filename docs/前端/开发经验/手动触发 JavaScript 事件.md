@@ -56,7 +56,7 @@ element.dispatchEvent(event);
 
 #### 示例：模拟鼠标点击
 
-```
+```javascript
 let mouseEvent = new MouseEvent('click', {
     bubbles: true,
     cancelable: true,
