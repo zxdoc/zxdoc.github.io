@@ -423,6 +423,10 @@ export default defineConfig({
               text: "Tailwind CSS",
               link: "/前端/开发经验/tailwindcss",
             },
+            {
+              text: "Vue-Ace-Editor",
+              link: "/前端/开发经验/Vue-Ace-Editor代码编辑器",
+            },
           ],
         },
       ],
