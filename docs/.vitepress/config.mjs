@@ -427,6 +427,10 @@ export default defineConfig({
               text: "Vue-Ace-Editor",
               link: "/前端/开发经验/Vue-Ace-Editor代码编辑器",
             },
+            {
+              text: "npm",
+              link: "/前端/开发经验/npm",
+            },
           ],
         },
       ],

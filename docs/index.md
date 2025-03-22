@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 最新文章
-      link: /前端/git/git
+      link: /前端/开发经验/npm
 features:
   - icon: "⚙️"
     title: "前端框架"
