@@ -435,6 +435,10 @@ export default defineConfig({
               text: "nrm",
               link: "/前端/开发经验/nrm",
             },
+            {
+              text: "vite-plugin-dts",
+              link: "/前端/开发经验/vite-plugin-dts",
+            },
           ],
         },
       ],
