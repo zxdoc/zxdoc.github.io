@@ -431,6 +431,10 @@ export default defineConfig({
               text: "npm",
               link: "/前端/开发经验/npm",
             },
+            {
+              text: "nrm",
+              link: "/前端/开发经验/nrm",
+            },
           ],
         },
       ],
