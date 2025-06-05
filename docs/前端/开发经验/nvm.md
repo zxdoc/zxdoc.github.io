@@ -1,4 +1,4 @@
- 
+# nvm
 
 ### nvm 是什么？
 
@@ -173,4 +173,4 @@ npm_mirror: https://npmmirror.com/mirrors/npm/
 
 在 Node.js 开发的多元场景下，nvm 作为一款强大的版本管理工具，极大地提升了开发效率与项目的稳定性。通过 nvm，开发者能够在同一系统中便捷地安装、切换不同版本的 Node.js，满足不同项目对特定 Node.js 版本的依赖需求。熟练掌握 nvm 的使用方法，能让大家更好地应对 Node.js 版本管理难题，为项目开发和维护带来便利，也是每一位 Node.js 开发者必备的技能。希望本文能助力大家更高效地运用 nvm，提升开发体验。
 
-本文转自 <https://blog.csdn.net/qq_42343318/article/details/147048710>，如有侵权，请联系删除。
+> 本文转自 <https://blog.csdn.net/qq_42343318/article/details/147048710>，如有侵权，请联系删除。
