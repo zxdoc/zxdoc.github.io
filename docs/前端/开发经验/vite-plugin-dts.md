@@ -117,6 +117,7 @@ dts({
 1. 检查 `dts` 中  `tsConfigFilePath` 是否配置正确
 2. 检查 `tsconfig.json` 中 `include` 字段配置是否正确
 3. 在 `dts`中 尝试使用 `exclude` 排除无关的目录
+4. 查看类型是不是写在了`d.ts`文件中,修改为`.ts`文件
 
 ```typescript
 export default defineConfig({
@@ -127,7 +128,6 @@ export default defineConfig({
       formats: ['es'],
       fileName: 'index',
     },
-
   },
   plugins: [
     vue(),

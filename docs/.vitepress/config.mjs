@@ -428,8 +428,8 @@ export default defineConfig({
               link: "/前端/开发经验/Vue-Ace-Editor代码编辑器",
             },
             {
-              text: "npm",
-              link: "/前端/开发经验/npm",
+              text: "共享 NPM 包的几种方式",
+              link: "/前端/开发经验/在团队内部共享 NPM 包的几种方式",
             },
             {
               text: "nrm",
@@ -438,6 +438,10 @@ export default defineConfig({
             {
               text: "vite-plugin-dts",
               link: "/前端/开发经验/vite-plugin-dts",
+            },
+            {
+              text: "nvm",
+              link: "/前端/开发经验/nvm",
             },
           ],
         },
